@@ -1,0 +1,1179 @@
+ <!doctype html>
+<html>
+<html lang="en">
+<head>
+  <head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon"
+    type="image/png"
+    href="https://upload.wikimedia.org/wikipedia/commons/5/5a/Borromean_Rings_Illusion.png">
+  <title>cooking</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<style>
+
+.myButton{
+  background-color: #4caf50
+  border:none;
+  color:white;
+  padding:16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration:0.4s;
+  transition-duration: 0.4s;
+  cursor:pointer;
+}
+ 
+.myButton1{
+  background-color: white;
+  color:black;
+  border:2px solid #4caf50;
+}
+.myButton1:hover{
+  background-color: #4caf50;
+  color:white;
+}
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 90px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+
+input{ 
+color:blue; }
+
+/* Dropdown Button */
+.btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.btn:hover, .dropdown:hover .btn  {
+    background-color: #0b7dda;
+}
+
+
+.center {
+      
+      margin: 0 auto;
+      
+    }
+
+    .awesome {
+      
+      font-family: futura;
+      font-style: italic;
+      
+      width:100%;
+      
+      margin: 0 auto;
+      text-align: center;
+      
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      position: absolute;
+      -webkit-animation:colorchange 20s infinite alternate;
+
+      color:black;
+  text-align:center;
+  font-size:60px;
+      
+      
+    }
+
+    .awesome1 {
+      
+      font-family: futura;
+      font-style: italic;
+      
+      width:40%;
+      
+      margin: 0 auto;
+      text-align: left;
+      
+      color:#313131;
+      font-size:30px;
+      font-weight: bold;
+      position: absolute;
+      -webkit-animation:colorchange 20s infinite alternate;
+
+      color:black;
+  text-align:center;
+  font-size:40px;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+     
+      
+      30% {
+        
+        color: white;
+      }
+      
+      40% {
+        
+        color: red;
+      }
+      
+      50% {
+        
+        color: silver;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: gold;
+      }
+      80% {
+     
+        color: black;
+      }
+      
+      90% {
+     
+        color: FFF400;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
+
+}
+.myOwnThing {
+  font-size:35px;}
+body {
+  background-color: green;
+}
+.myGoldenIq {
+  color:black;
+  text-align:left;
+  font-size:50px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.numberCircle {
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  /* remove if you don't care about IE8 */
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
+.href{
+  text-decoration: none;
+}
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body{
+    font-family: 'Source Sans Pro';
+    background-color: #e4ecbd;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+
+a.print{
+    text-decoration: none;
+    display: inline-block;
+    width: 75px;
+    margin: 20px auto;
+    background: #dc143c;
+    background: linear-gradient(#e3647e, #DC143C);
+    text-align: center;
+    color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    border: 1px solid #e3647e;
+}
+
+i.fa.fa-print{
+    margin-right: 5px;
+}
+a.print:hover{
+    background: linear-gradient(#DC143C, #e3647e)
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+span.step {
+  background: #cccccc;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+}
+.button {
+   border: 5px solid #021724;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#c7b350), to(#3e779d));
+   background: -webkit-linear-gradient(top, #c7b350, #3e779d);
+   background: -moz-linear-gradient(top, #c7b350, #3e779d);
+   background: -ms-linear-gradient(top, #c7b350, #3e779d);
+   background: -o-linear-gradient(top, #c7b350, #3e779d);
+   background-image: -ms-linear-gradient(top, #c7b350 0%, #3e779d 100%);
+   padding: 11.5px 23px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   border-radius: 30px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #09202e 0 1px 0;
+   color: #06426c;
+   font-size: 17px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 5px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+   }
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 5px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #7a2e7a;
+   }
+   body {
+    font-family:'Lato',sans-serif;
+}
+
+#quiz {
+    margin-left:0px;
+    background:#d2def2;
+    padding:10px 20px 10px 20px;
+    width:device-width;
+    border-radius:20px;
+    float:left;
+}
+
+
+h1 {
+    text-align:center;
+}
+
+
+#input {
+    margin-border:20px;
+    display:block ;
+}
+
+
+#textbox {
+    height:22px;
+    width:120px;
+    font-size:16px;
+    border-radius:5px;
+    border:none;
+    padding-left:5px; 
+}
+
+
+#button {
+    background:green;
+    border:none;
+    border-radius:5px;
+    padding:10px;
+    color:white;
+    font-size:16px;
+    transition-duration:.5s;
+    margin-top:15px;
+}
+
+
+#button.hover {
+    background:white;
+    border:1px solid green;
+    color:black;
+    cursor:pointer;
+   
+}
+
+
+#after_submit {
+    visibility:hidden;
+    background:#0000ff;
+    padding:10px 20px 10px 20px;
+    width:device-width;
+    border-radius:20px;
+    float:left;
+    margin-left:20px;
+    font-size:30px;
+}
+
+
+#pictures {
+    width:100%;
+    height:100%;
+}
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+/* The laptop with borders */
+.laptop {
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
+  transform: scale(.6) translate(-50%); /* Scaled down for a better Try-it experience (change to 1 for full scale) */
+  left: 50%;
+  position: absolute;
+  width: 1366px;
+  height: 800px;
+  border-radius: 6px;
+  border-style: solid;
+  border-color: black;
+  border-width: 24px 24px 80px;
+  background-color: black;
+
+}
+
+/* The keyboard of the laptop */
+.laptop:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1600px;
+  height: 60px;
+  margin: 80px 0 0 -110px;
+  background: black;
+  border-radius: 6px;
+}
+
+/* The top of the keyboard */
+.laptop:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  bottom: -110px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  background: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  z-index: 1;
+}
+
+/* The screen (or content) of the device */
+.laptop .content {
+  width: 1366px;
+  height: 800px;
+  overflow: hidden;
+  border: none;
+}
+/* The device with borders */
+.smartphone {
+  position: relative;
+  width: 290px;
+  height: 192px;
+  margin: auto;
+  border: 16px white solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+/* The horizontal line on the top of the device */
+.smartphone:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: gold;
+  border-radius: 10px;
+}
+
+/* The circle on the bottom of the device */
+.smartphone:after {
+  content: '';
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: gold;
+  border-radius: 50%;
+}
+
+#div1 {
+  font-size:48px;
+}
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div class="tab">
+
+  <button class="tablinks" onclick="openCity(event, 'London')">recipe</button>
+      <button class="tablinks" onclick="openCity(event, 'Korea')">left?</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">more recipe?</button>
+      <button class="tablinks" onclick="openCity(event, 'Newzealand')">quiz</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">information</button>
+</div>
+  <div class="header">
+  <div class='center'>
+
+  <h1 class="awesome">Spaghetti Bolognese</h1>
+
+</div>
+</div>
+
+
+
+<br/>
+
+<h2>Hi!</h2>
+    
+
+
+
+<div id="London" class="tabcontent">
+  <p class="myGoldenIq">our special recipe:</p>
+<p style="font-size:30px;">you need:</p>
+<p style="font-size:20px;"> 500g Mince beef<br/>
+1 Jar Dolmio Extra Bolognese Sauce <br/>
+Spaghetti Half a packet <br/>
+</p>
+<p>_____________________________________________</p>
+<p style="font-size:20px;">Cooking the mince for 10 minutes and then add the Dolmio Extra Bolognese Sauce and ster for 5 minutes When all set Put cold water in a pot full then boil it until hot then add half of the spaghetti packet then let it cook for about 10 minutes then taste it to see if its soft but not mushy then when that is ready put it in a bowl then add your mince on top and you are done.
+</p>
+<!-- Trigger the Modal -->
+<img id="myImg" src="bestFood.jpg" alt="Snow" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+<video width="400" controls>
+  <source src="pgroject.mp4" type="video/mp4">
+  <source src="project copy.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+<p>________________________________________________________________________________________________________________________________________________________________</p>
+<h2>or you can make your own sauce</h2>
+<h3>recipe:</h3>
+<h3>you need: Tomatoes 93% (from Puree), Sugar, Onion 1.5%, Garlic 1.5%, Salt, Basil, Food Acid (Citric), Yeast Extract, Pepper, Paprika, Oregano, Fennel.</h3>
+<span class="step">1</span><p>Chop the onion and put in a saucepan over a low to medium heat with a touch of olive oil. We want the onion to gently sweat and not burn. Chop the garlic finely or use a crusher. Add to the saucepan stirring now and again to make sure that neither the onions or garlic burn.</p>
+<br/>
+<span class="step">2</span><p>When they have become soft and translucent open the tin of chopped tomatoes and add to the saucepan along with the tomato purée, salt, pepper, sugar, herbs and vinegar. Give it a stir and bring to a simmer. Don't worry about the vinegar smell, this will disappear.
+
+</p><br/>
+<span class="step">3</span><p>Let it simmer, for twenty minutes or so, or until to tomatoes are soft enough to squash with the back of a spoon.
+
+</p><br/>
+<span class="step">4</span><p>That's it, complete. You can now use your homemade bolognese pasta sauce just like a stir in sauce from a jar. It can be prepared for a meal early and kept in fridge until you are ready to use it. I wouldn't suggest keeping it too long before you use it, maybe a day or two. I dare say you could freeze it if you have a suitable container.
+
+</p><br/>
+<br/>
+
+  <a href='https://drive.google.com/uc?export=download&id=1A6r4vHXyiNIYrjIaKROhgLti_ZjFmI2c' class='button'>download</a><br/><br/><br/>
+
+<div><form>
+<input type="button" class="button" value="Print this page" onClick="window.print()">
+</form></div>
+<br/>
+ <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F10fFMsXaXCF1EQW2H_AZtg0SDtdtUiStD%2Fview%3Fusp%3Dsharing&layout=button_count&size=small&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<script>
+  var GU_comment_box_id = "jlc07b9z";
+  var GU_comment_box_theme = "style";
+  var GU_comment_box_pos = "top";
+  var GU_comment_box_mode = "noinline";
+  var GU_comment_box_server = "minichat.first-jump.com";
+</script>
+<script src="http://minichat.first-jump.com/i/comm/comment_box_code.js"></script>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <div style="text-align: center;">
+ <h1 style="font-size: 40px; color:blue;">do you have more recipe?</h1>
+  <p>you can email me or please complete this form</p>
+
+    <form action="mailto:2019kimg@tauranga-int.school.nz" method="post" enctype="text/plain">
+<button class="myButton myButton1">
+email
+</button>
+ </form>
+ <p>Not working? send it to my email.</p>
+<input type="text" value="2019kimg@tauranga-int.school.nz" id="myInput">
+<button onclick="myFunction()">Copy text</button>
+</div>
+
+<a href="#compose-modal" data-toggle="modal" id="compose-button" class="btn btn-primary pull-right hidden"> Compose </a>
+    <div class="modal fade" id="compose-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">Compose</h4>
+          </div>
+          <form onsubmit="return sendEmail();">
+            <div class="modal-body">
+              <div class="form-group">
+                <textarea class="form-control" id="compose-message" placeholder="Message" rows="10" required></textarea>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="submit" id="send-button" class="btn btn-primary">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var clientId = '205602693250-upckf4bd8kfa2gdopu2ua95m3vc7ua1r.apps.googleusercontent.com';
+      var apiKey = 'AIzaSyAaebBoLWI4Pu5zqh3DkTLLh3X_LIHYTQg';
+      var scopes =
+        'https://www.googleapis.com/auth/gmail.readonly '+
+        'https://www.googleapis.com/auth/gmail.send';
+
+      function handleClientLoad() {
+        gapi.client.setApiKey(apiKey);
+        window.setTimeout(checkAuth, 1);
+      }
+      function checkAuth() {
+        gapi.auth.authorize({
+          client_id: clientId,
+          scope: scopes,
+          immediate: true
+        }, handleAuthResult);
+      }
+      function handleAuthClick() {
+        gapi.auth.authorize({
+          client_id: clientId,
+          scope: scopes,
+          immediate: false
+        }, handleAuthResult);
+        return false;
+      }
+      function handleAuthResult(authResult) {
+        if(authResult && !authResult.error) {
+          loadGmailApi();
+          $('#authorize-button').remove();
+          $('.table-inbox').removeClass("hidden");
+          $('#compose-button').removeClass("hidden");
+        } else {
+          $('#authorize-button').removeClass("hidden");
+          $('#authorize-button').on('click', function(){
+            handleAuthClick();
+          });
+        }
+      }
+      function loadGmailApi() {
+        gapi.client.load('gmail', 'v1', displayInbox);
+      }
+      function displayInbox() {
+        var request = gapi.client.gmail.users.messages.list({
+          'userId': 'me',
+          'labelIds': 'INBOX',
+          'maxResults': 10
+        });
+        request.execute(function(response) {
+          $.each(response.messages, function() {
+            var messageRequest = gapi.client.gmail.users.messages.get({
+              'userId': 'me',
+              'id': this.id
+            });
+            messageRequest.execute(appendMessageRow);
+          });
+        });
+      }
+      function sendEmail()
+      {
+        $('#send-button').addClass('disabled');
+        sendMessage(
+          {
+            'To': 'gukim6@gmail.com',
+            'Subject': "Recipe information!"
+          },
+          $('#compose-message').val(),
+          composeTidy
+        );
+        return false;
+      }
+      function composeTidy()
+      {
+        $('#compose-modal').modal('hide');
+        $('#compose-to').val('');
+        $('#compose-subject').val('');
+        $('#compose-message').val('');
+        $('#send-button').removeClass('disabled');
+      }
+      function sendReply()
+      {
+        $('#reply-button').addClass('disabled');
+        sendMessage(
+          {
+            'To': $('#reply-to').val(),
+            'Subject': $('#reply-subject').val(),
+            'In-Reply-To': $('#reply-message-id').val()
+          },
+          $('#reply-message').val(),
+          replyTidy
+        );
+        return false;
+      }
+      function replyTidy()
+      {
+        $('#reply-modal').modal('hide');
+        $('#reply-message').val('');
+        $('#reply-button').removeClass('disabled');
+      }
+      function fillInReply(to, subject, message_id)
+      {
+        $('#reply-to').val(to);
+        $('#reply-subject').val(subject);
+        $('#reply-message-id').val(message_id);
+      }
+      function sendMessage(headers_obj, message, callback)
+      {
+        var email = '';
+        for(var header in headers_obj)
+          email += header += ": "+headers_obj[header]+"\r\n";
+        email += "\r\n" + message;
+        var sendRequest = gapi.client.gmail.users.messages.send({
+          'userId': 'me',
+          'resource': {
+            'raw': window.btoa(email).replace(/\+/g, '-').replace(/\//g, '_')
+          }
+        });
+        return sendRequest.execute(callback);
+      }
+      function getHeader(headers, index) {
+        var header = '';
+        $.each(headers, function(){
+          if(this.name.toLowerCase() === index.toLowerCase()){
+            header = this.value;
+          }
+        });
+        return header;
+      }
+      function getBody(message) {
+        var encodedBody = '';
+        if(typeof message.parts === 'undefined')
+        {
+          encodedBody = message.body.data;
+        }
+        else
+        {
+          encodedBody = getHTMLPart(message.parts);
+        }
+        encodedBody = encodedBody.replace(/-/g, '+').replace(/_/g, '/').replace(/\s/g, '');
+        return decodeURIComponent(escape(window.atob(encodedBody)));
+      }
+      function getHTMLPart(arr) {
+        for(var x = 0; x <= arr.length; x++)
+        {
+          if(typeof arr[x].parts === 'undefined')
+          {
+            if(arr[x].mimeType === 'text/html')
+            {
+              return arr[x].body.data;
+            }
+          }
+          else
+          {
+            return getHTMLPart(arr[x].parts);
+          }
+        }
+        return '';
+      }
+    </script>
+    <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <div class="smartphone">
+  <h3>cookers: David and Cyrus</h3>
+  <h3>recipe from Cyrus</h3>
+  <h3>website by David</h3>
+  <h3>song from mission impossible</h3>
+</div>
+  <div class="laptop">
+  <div class="content">
+    <div style="font-size: 60px;">
+      <h2 style="text-align: center; color:white;">THAK YOU</h2>
+<h2 style="text-align: center; color:white;">WE HOPE YOU'VE ENJOYED IT</h2>
+    </div>
+  </div><br/><br/>
+  <div id="div1" class="fa"></div>
+</div>
+
+</div>
+<div id="Newzealand" class="tabcontent">
+<form id="quiz" name="quiz">
+        
+     <p>what were we making?</p>
+     <input id="textbox" type="text" name="question1">
+     
+     <p>you need 500g Mince beef,1 Jar Dolmio Extra Bolognese Sauce,Spaghetti Half a packet </p>
+     <input type="radio" id="mc" name="question2" value="true">true<br>
+     <input type="radio" id="mc" name="question2" value="false">false<br>
+     
+     
+     
+     <input id="button" type="button" value="I'm finished!" onclick="check();">
+     
+     </form>
+     
+     <div id="after_submit"></div>
+     
+     <p id="messages"></p>
+     <p id="number_correct"></p>
+     <img id="pictures">
+  </div>
+
+<div id="Korea" class="tabcontent">
+  <h2>What will you do with your Spaghetti?</h2>
+  <div style="text-align: left;">
+  <h3 class="awesome1">desert</h3><br/><br/><br/><br/>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/gxbvNXmlrRA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PsuoXi2D6tM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe scrolling='no' width='300' height='300' src='https://video.cookist.com/embed/WiZwQeSw6ewdN5u9?bar=0&autoplay=1&h=300' frameborder='0' allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BF27dWLl0pY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-tSvR0Wx-Is" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+</div>
+  
+<script>
+$('#contact-form').submit(function(e) {
+  var name = document.getElementById('inputName'),
+      email = document.getElementById('inputEmail'),
+      message = document.getElementById('inputMessage');
+
+  if (!name.value || !email.value || !message.value) {
+    alertify.error('please check your enteries')
+  }else{
+    $.ajax({
+    url: "https://formspree.io/2019kimg@tauranga-int.school.nz", 
+    method: "POST",
+    data: $(this).serialize(),
+    dataType: "json"
+});
+    e.preventDefault()
+    $(this).get(0).reset()
+    alertify.success('message sent')
+  }
+})
+
+
+
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent"); 
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("myInput");
+
+  /* Select the text field */
+  copyText.select();
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
+}
+</script>
+     <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+function check(){
+  
+var question1=document.quiz.question1.value;
+var question2=document.quiz.question2.value;
+
+var correct=0;
+
+
+    if (question1=="Spaghetti Bolognese"){
+        correct++;
+  }
+
+
+   if (question2=="true"){
+       correct++;
+  }  
+
+
+ 
+
+var messages=["Great job!","That's just okay!","You really need to do better"];
+var pictures=["https://media1.giphy.com/media/11sBLVxNs7v6WA/giphy.gif","https://media1.giphy.com/media/Nm9hS20D4swVO/200w.gif","https://media.giphy.com/media/xUA7aRaGvA53VSlxUk/giphy.gif"];
+
+var range;
+
+  if(correct<1){
+      range=2;
+  }
+  
+  if(correct>0&&correct<3){
+      range=1;
+  }
+  
+  
+
+document.getElementById("after_submit").style.visibility="visible";
+
+
+document.getElementById("messages").innerHTML=messages[range];
+document.getElementById("number_correct").innerHTML="&rarr;you got "+correct+" correct.";
+document.getElementById("pictures").src=pictures[range];
+
+
+}
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+
+
+</script>
+<script>
+function chargebattery() {
+  var a;
+  a = document.getElementById("div1");
+  a.innerHTML = "&#xf244;";
+  setTimeout(function () {
+      a.innerHTML = "&#xf243;";
+    }, 1000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf242;";
+    }, 2000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf241;";
+    }, 3000);
+  setTimeout(function () {
+      a.innerHTML = "&#xf240;";
+    }, 4000);
+}
+chargebattery();
+setInterval(chargebattery, 5000);
+</script>
+</body>
+</html>
