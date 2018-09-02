@@ -6,6 +6,7 @@ app = Flask(__name__)
 def email():
     return render_template('recipe.html')
 
+
 @app.route("/checking")
 def index():
     return render_template('sending.html')
