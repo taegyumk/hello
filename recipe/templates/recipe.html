@@ -795,7 +795,7 @@ h1 {
     <div>
       <a href="#compose-modal" data-toggle="modal"> Compose </a>
     <div>
-    <div class="modal fade" id="compose-modal" tabindex="-1" role="dialog">
+    <div class="modal fade" id="compose-modal" tabindex="1" role="dialog">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
@@ -891,7 +891,7 @@ h1 {
       }
       function composeTidy()
       {
-        //$('#compose-modal').modal('hide');
+        $('#compose-modal').modal('hide');
         $('#compose-to').val('');
         $('#compose-subject').val('');
         $('#compose-message').val('');
