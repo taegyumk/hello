@@ -792,17 +792,14 @@ h1 {
     <input type="text" value="2019kimg@tauranga-int.school.nz" id="myInput">
     <button onclick="myFunction()">Copy text</button>
   </div>
-    <div>
-      <a href="#compose-modal" data-toggle="modal"> Compose </a>
-    <div>
-    <div class="modal fade" id="compose-modal" tabindex="1" role="dialog">
+    <div id="compose-modal" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h4 class="modal-title">Compose</h4>
+            <h4 class="modal-title">Send Message</h4>
           </div>
           <form onsubmit="return sendEmail();">
             <div class="modal-body">
