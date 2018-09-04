@@ -12,6 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -670,6 +671,19 @@ h1 {
 #div1 {
   font-size:48px;
 }
+.parallax {
+    /* The image used */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Animhorse.gif');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -683,6 +697,7 @@ h1 {
   <button class="tablinks" onclick="openCity(event, 'Paris')">more recipe?</button>
       <button class="tablinks" onclick="openCity(event, 'Newzealand')">quiz</button>
     <button class="tablinks" onclick="openCity(event, 'Tokyo')">information</button>
+
 </div>
   <div class="header">
   <div class='center'>
@@ -703,84 +718,81 @@ h1 {
 
 <div id="London" class="tabcontent">
   <p class="myGoldenIq">our special recipe:</p>
-<p style="font-size:30px;">you need:</p>
-<p style="font-size:20px;"> 500g Mince beef<br/>
-1 Jar Dolmio Extra Bolognese Sauce <br/>
-Spaghetti Half a packet <br/>
-</p>
-<p>_____________________________________________</p>
-<p style="font-size:20px;">Cooking the mince for 10 minutes and then add the Dolmio Extra Bolognese Sauce and ster for 5 minutes When all set Put cold water in a pot full then boil it until hot then add half of the spaghetti packet then let it cook for about 10 minutes then taste it to see if its soft but not mushy then when that is ready put it in a bowl then add your mince on top and you are done.
-</p>
-<!-- Trigger the Modal -->
-<img id="myImg" src="bestFood.jpg" alt="Snow" style="width:100%;max-width:300px">
+  <p style="font-size:30px;">you need:</p>
+  <p style="font-size:20px;"> 500g Mince beef<br/>
+    1 Jar Dolmio Extra Bolognese Sauce <br/>
+    Spaghetti Half a packet <br/>
+  </p>
+  <p>_____________________________________________</p>
+  <p style="font-size:20px;">Cooking the mince for 10 minutes and then add the Dolmio Extra Bolognese Sauce and ster for 5 minutes When all set Put cold water in a pot full then boil it until hot then add half of the spaghetti packet then let it cook for about 10 minutes then taste it to see if its soft but not mushy then when that is ready put it in a bowl then add your mince on top and you are done.
+  </p>
+  <!-- Trigger the Modal -->
+  <img id="myImg" src="https://drive.google.com/uc?id=1W1qvnQGuRimr5uKXaU8rIjx3gctQ5wWt" alt="Snow" style="width:100%; max-width:300px">
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+  </div>
+<!--
 <video width="400" controls>
-  <source src="pgroject.mp4" type="video/mp4">
-  <source src="project copy.ogg" type="video/ogg">
+  <source src="https://drive.google.com/file/d/1uaV9XFvAbye14-yOXbx9eEVTlVfdUFrT/preview">
   Your browser does not support HTML5 video.
 </video>
-<p>________________________________________________________________________________________________________________________________________________________________</p>
-<h2>or you can make your own sauce</h2>
-<h3>recipe:</h3>
-<h3>you need: Tomatoes 93% (from Puree), Sugar, Onion 1.5%, Garlic 1.5%, Salt, Basil, Food Acid (Citric), Yeast Extract, Pepper, Paprika, Oregano, Fennel.</h3>
-<span class="step">1</span><p>Chop the onion and put in a saucepan over a low to medium heat with a touch of olive oil. We want the onion to gently sweat and not burn. Chop the garlic finely or use a crusher. Add to the saucepan stirring now and again to make sure that neither the onions or garlic burn.</p>
-<br/>
-<span class="step">2</span><p>When they have become soft and translucent open the tin of chopped tomatoes and add to the saucepan along with the tomato purée, salt, pepper, sugar, herbs and vinegar. Give it a stir and bring to a simmer. Don't worry about the vinegar smell, this will disappear.
+-->
+  <iframe width="400" height="200" src="https://drive.google.com/file/d/1uaV9XFvAbye14-yOXbx9eEVTlVfdUFrT/preview"></iframe>
+  <p>________________________________________________________________________________________________________________________________________________________________</p>
+  <h2>or you can make your own sauce</h2>
+  <h3>recipe:</h3>
+  <h3>you need: Tomatoes 93% (from Puree), Sugar, Onion 1.5%, Garlic 1.5%, Salt, Basil, Food Acid (Citric), Yeast Extract, Pepper, Paprika, Oregano, Fennel.</h3>
+  <span class="step">1</span><p>Chop the onion and put in a saucepan over a low to medium heat with a touch of olive oil. We want the onion to gently sweat and not burn. Chop the garlic finely or use a crusher. Add to the saucepan stirring now and again to make sure that neither the onions or garlic burn.</p>
+  <br/>
+  <span class="step">2</span><p>When they have become soft and translucent open the tin of chopped tomatoes and add to the saucepan along with the tomato purée, salt, pepper, sugar, herbs and vinegar. Give it a stir and bring to a simmer. Don't worry about the vinegar smell, this will disappear.
 
-</p><br/>
-<span class="step">3</span><p>Let it simmer, for twenty minutes or so, or until to tomatoes are soft enough to squash with the back of a spoon.
+  </p><br/>
+  <span class="step">3</span><p>Let it simmer, for twenty minutes or so, or until to tomatoes are soft enough to squash with the back of a spoon.
 
-</p><br/>
-<span class="step">4</span><p>That's it, complete. You can now use your homemade bolognese pasta sauce just like a stir in sauce from a jar. It can be prepared for a meal early and kept in fridge until you are ready to use it. I wouldn't suggest keeping it too long before you use it, maybe a day or two. I dare say you could freeze it if you have a suitable container.
+  </p><br/>
+  <span class="step">4</span><p>That's it, complete. You can now use your homemade bolognese pasta sauce just like a stir in sauce from a jar. It can be prepared for a meal early and kept in fridge until you are ready to use it. I wouldn't suggest keeping it too long before you use it, maybe a day or two. I dare say you could freeze it if you have a suitable container.
 
-</p><br/>
-<br/>
+  </p><br/>
+  <br/>
 
   <a href='https://drive.google.com/uc?export=download&id=1A6r4vHXyiNIYrjIaKROhgLti_ZjFmI2c' class='button'>download</a><br/><br/><br/>
 
-<div><form>
-<input type="button" class="button" value="Print this page" onClick="window.print()">
-</form></div>
-<br/>
+  <div>
+    <form>
+      <input type="button" class="button" value="Print this page" onClick="window.print()">
+    </form>
+  </div>
+  <br/>
  <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F10fFMsXaXCF1EQW2H_AZtg0SDtdtUiStD%2Fview%3Fusp%3Dsharing&layout=button_count&size=small&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-<script>
-  var GU_comment_box_id = "jlc07b9z";
-  var GU_comment_box_theme = "style";
-  var GU_comment_box_pos = "top";
-  var GU_comment_box_mode = "noinline";
-  var GU_comment_box_server = "minichat.first-jump.com";
-</script>
-<script src="http://minichat.first-jump.com/i/comm/comment_box_code.js"></script>
+  <script>
+    var GU_comment_box_id = "jlc07b9z";
+    var GU_comment_box_theme = "style";
+    var GU_comment_box_pos = "top";
+    var GU_comment_box_mode = "noinline";
+    var GU_comment_box_server = "minichat.first-jump.com";
+  </script>
+  <script src="http://minichat.first-jump.com/i/comm/comment_box_code.js"></script>
 </div>
 
 <div id="Paris" class="tabcontent">
   <div style="text-align: center;">
- <h1 style="font-size: 40px; color:blue;">do you have more recipe?</h1>
-  <p>you can email me or please complete this form</p>
-
+    <h1 style="font-size: 40px; color:blue;">do you have more recipe?</h1>
+    <p>you can email us</p>
     <form action="mailto:2019kimg@tauranga-int.school.nz" method="post" enctype="text/plain">
-<button class="myButton myButton1">
-email
-</button>
- </form>
- <p>Not working? send it to my email.</p>
-<input type="text" value="2019kimg@tauranga-int.school.nz" id="myInput">
-<button onclick="myFunction()">Copy text</button>
-</div>
-
-<a href="#compose-modal" data-toggle="modal" id="compose-button" class="btn btn-primary pull-right hidden"> Compose </a>
+      <button class="myButton myButton1"> email </button>
+    </form>
+    <p>Not working? send it to my email.</p>
+    <input type="text" value="2019kimg@tauranga-int.school.nz" id="myInput">
+    <button onclick="myFunction()">Copy text</button>
+  </div>
+    <a href="#compose-modal" data-toggle="modal" id="compose-button" class="btn btn-primary pull-right hidden"> Compose </a>
     <div class="modal fade" id="compose-modal" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -965,8 +977,7 @@ email
     </script>
     <script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
 
-</div>
-
+</div> <!--END OF PARIS-->
 <div id="Tokyo" class="tabcontent">
   <div class="smartphone">
   <h3>cookers: David and Cyrus</h3>
@@ -1019,6 +1030,8 @@ email
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-tSvR0Wx-Is" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
 </div>
   
+
+
 <script>
 $('#contact-form').submit(function(e) {
   var name = document.getElementById('inputName'),
